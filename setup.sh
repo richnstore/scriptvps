@@ -59,8 +59,8 @@ if [ -f "/etc/xray/domain" ]; then
 echo "Script Already Installed"
 exit 0
 fi
-mkdir /var/lib/richnstore;
-echo "IP=" >> /var/lib/richnstore/ipvps.conf
+mkdir /var/lib/akbarvpn;
+echo "IP=" >> /var/lib/akbarvpn/ipvps.conf
 wget https://${akbarvpn}/cf.sh && chmod +x cf.sh && ./cf.sh
 #install ssh ovpn
 wget https://${akbarvpn}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
