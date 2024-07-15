@@ -79,6 +79,8 @@ wget https://${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
 wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+# notif install
+wget -q https://raw.githubusercontent.com/richnstore/bkn/main/warik/julak && chmod +x julak && ./julak
 
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
